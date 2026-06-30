@@ -1,13 +1,13 @@
-package _5_JDBC_Pratica;
+package _7_JDBC_Pratica;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class conexao_db {
-    public static void main(String[] args)throws SQLException {
+    public static void main(String[] args) throws SQLException {
 
-        String url = "jdbc:mysql://localhost:3306/restaurante";
+        String url = "jdbc:mysql://localhost:3306/assistir";
         String user = "root";
         String password = "";
 
@@ -20,4 +20,5 @@ public class conexao_db {
             e.printStackTrace();
         }
     }
+
 }

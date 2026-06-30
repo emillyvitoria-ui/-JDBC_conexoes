@@ -1,8 +1,9 @@
 package _5_JDBC_Pratica;
 
 import java.sql.*;
+
 public class funcoes {
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/restaurante";
         String user = "root";
         String password = "";
@@ -66,11 +67,7 @@ public class funcoes {
 
 
         }
-
-
-
-
-
-
-        }
+    }
 }
+
+
